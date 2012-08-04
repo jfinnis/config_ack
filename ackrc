@@ -1,0 +1,16 @@
+# Always sort
+--sort-files
+
+# I'm tired of grouping
+--noheading
+--break
+
+# add new filetypes
+--type-set=textile=.textile
+--type-set=snippet=.snippets
+
+# Hooray for smart-case!
+--smart-case
+
+# use less by default and set its options
+--pager=less -R -M --shift 5 -i
