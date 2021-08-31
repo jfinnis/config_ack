@@ -1,13 +1,26 @@
 # Always sort
 --sort-files
 
-# I'm tired of grouping
+# Always color
+--color
+
+# no grouping
 --noheading
 --break
+
+# ignores
+--ignore-dir=node_modules/
 
 # add new filetypes
 --type-set=textile=.textile
 --type-set=snippet=.snippets
+--type-add=css=scss
+--type-set=sass=.scss,.sass
+--type-set=scss=.scss,.sass
+--type-set=json=.json
+--type-set=ts:ext:ts
+--type-set=tsdef:match:/.+\.d\.ts/
+--type-add=js=.jsx,.js
 
 # Hooray for smart-case!
 --smart-case
